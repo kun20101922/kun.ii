@@ -1,0 +1,46 @@
+@import url("header/.header-bar.css");
+@import url("header/.header-bar-logo.css");
+@import url("header/.header-bar-menu.css");
+@import url("header/.header-bar-button.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+body::after {
+  position: absolute;
+  background-image: url(https://pbs.twimg.com/media/E6v35CGWEAIwyky.jpg);
+  background-position: center ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vb; 
+  z-index: -1;
+}
+
+main {
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-show {
+  position: absolute;
+  top: 30px;
+  text-align: center ;
+  justify-content: center;
+}
